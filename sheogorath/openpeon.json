@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "sheogorath",
   "display_name": "Sheogorath",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "lloydaf",
     "github": "lloydaf"
@@ -236,6 +236,15 @@
           "file": "sounds/annoyed_9.wav",
           "label": "I could just tear out your intestines.",
           "sha256": "9cc7414e61346593924afe671a43228d221c1492fbf3f2159224e936b79bed90"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/error_8.wav",
+          "label": "Again, with the niggling little details",
+          "sha256": "211486f543876b2a42bc3b530750d17b45a3219459a6c31224208b2f69999720"
         }
       ]
     }

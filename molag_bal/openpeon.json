@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "molag_bal",
   "display_name": "Molag Bal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "lloydaf",
     "github": "lloydaf"
@@ -176,6 +176,15 @@
           "file": "sounds/annoyed_6.wav",
           "label": "The weak would be punished by the strong.",
           "sha256": "b4556066b8ae46aaff0f140e374b6ffe4e3d72218d01ec642214bd2f4f54fd24"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/annoyed_6.wav",
+          "label": "The weak would be punished by the strong",
+          "sha256": "33564dd0336f426e57d9b16df7a8ccaefc62477a6690dbd6257534409f292ccf"
         }
       ]
     }
