@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "sc_tank",
   "display_name": "StarCraft Siege Tank",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "workdd",
     "github": "workdd"
@@ -53,6 +53,33 @@
           "file": "sounds/OrdersReceived.mp3",
           "label": "Orders received",
           "sha256": "77724020ba413babaf5638b966669f5876737b1fd9fe11ce321b57817b805f9e"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/ReadyToRollOut.mp3",
+          "label": "Ready to roll out",
+          "sha256": "09b1af4c9711ff6e87e1bd61ed16129eac5e763e583b5d1146477d363d975849"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/OrdersReceived.mp3",
+          "label": "Orders received",
+          "sha256": "77724020ba413babaf5638b966669f5876737b1fd9fe11ce321b57817b805f9e"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Absolutely.mp3",
+          "label": "Absolutely",
+          "sha256": "98ef13924854d42e7e782135651c03b8c24ab80fcdaf761994f621fef96d8337"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "sc_scv",
   "display_name": "StarCraft SCV",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "workdd",
     "github": "workdd"
@@ -63,6 +63,33 @@
           "file": "sounds/OrdersCapn.mp3",
           "label": "Orders, Cap'n",
           "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/IReadYou.mp3",
+          "label": "I read you",
+          "sha256": "13bb640b3f25bd822a1db81babc5fe5340648d88f45cf316f80e311edd5807c0"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/OrdersCapn.mp3",
+          "label": "Orders, Cap'n",
+          "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Affirmative.mp3",
+          "label": "Affirmative",
+          "sha256": "96cf9d0f9ca1fca5d6e4e608ab40ea3d42d16ba92fdb385b94a51523ab862d64"
         }
       ]
     }
