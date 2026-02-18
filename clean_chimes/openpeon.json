@@ -1,0 +1,49 @@
+{
+  "cesp_version": "1.0",
+  "name": "clean_chimes",
+  "display_name": "Clean Chimes",
+  "version": "1.0.0",
+  "author": {
+    "name": "christy-halim",
+    "github": "christy-halim"
+  },
+  "license": "Mixkit License",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/CC_Start.wav", "label": "Software interface start", "sha256": "7323c6ced9605a9b8a406cd088550d06d1a39dc8d37c9abfe52b536482468ad5" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/CC_Acknowledge.wav", "label": "Elevator tone", "sha256": "57051b9ef3c58a3df2e8c3679a80420e4020481ad551e8726a83d29faaa7852b" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/CC_Complete.wav", "label": "Positive notification", "sha256": "651080b1592459ecdbf90c59a218ae6af005051349f22c238a33a25a4edb5544" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/CC_Error.wav", "label": "Wrong answer fail notification", "sha256": "830b2019b21f9532d1cf2bf3ebb93919c24d92b92a2aa22d231393a4b8ffb472" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/CC_InputNeeded.wav", "label": "Bell notification", "sha256": "f71c299ba06fbd65df767a29093562ca66d390d4861e04106d393e69521b3246" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/CC_Warning.wav", "label": "Clear announce tones", "sha256": "ec5f7fa3e909aa0c699c747499b58afe23fee82d094b45f6ab648916ab5686be" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/CC_Spam.wav", "label": "Dry pop up notification", "sha256": "aa1085ba2eb7fb36c59dc75cb8b515e95fa53e87318895774f5655f813ba342e" }
+      ]
+    }
+  }
+}

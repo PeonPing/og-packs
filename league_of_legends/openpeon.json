@@ -1,0 +1,53 @@
+{
+  "cesp_version": "1.0",
+  "name": "league_of_legends",
+  "display_name": "League of Legends",
+  "version": "1.0.0",
+  "author": {
+    "name": "christy-halim",
+    "github": "christy-halim"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/LOL_WelcomeToSR.wav", "label": "Welcome to Summoner's Rift", "sha256": "bd3646ae2692feb9f6cc2228de0316d6a7e5f27ba018d173e75fc8428f265cbd" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/LOL_OnMyWay.wav", "label": "On My Way ping", "sha256": "e544ff5aec41610c1578aa7cf2c66a0cc182b9869ca0d79303db25465a9f3f2b" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/LOL_FirstBlood.wav", "label": "First Blood", "sha256": "006ea3f331f7eda9e723918e795a255e25cc6d1dc2c5c310cbed86a79e64459c" },
+        { "file": "sounds/LOL_Victory.wav", "label": "Victory", "sha256": "8f944f9a4e997ad77aff61e3286ddd1c13d6a41f8962227f37f4df0e4f70b5fd" },
+        { "file": "sounds/LOL_DoubleKill.wav", "label": "Double Kill", "sha256": "e43792414c66dfabc4e6155912245960d0cf1e497768dc843de5e738b6ecfc5f" },
+        { "file": "sounds/LOL_TripleKill.wav", "label": "Triple Kill", "sha256": "4ab03f798ec42b9ca60d52add2f54b6a190144ebf53b6cf6c7e201453b947186" },
+        { "file": "sounds/LOL_PentaKill.wav", "label": "Penta Kill", "sha256": "4a149b552a520e6b59b05468c842c6b45a6bdaec2dd81bc6e4b9b1c30cd8869b" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/LOL_YouHaveBeenSlain.wav", "label": "You have been slain", "sha256": "626160ae5ac76a7d39c527d0bd366d0b9f735bddd4354a224681dd601c205892" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/LOL_AssistMe.wav", "label": "Assist Me ping", "sha256": "f197aad69a84a1b237a07a019bddc413de2133a29ab2d87dc6706f0bfd40c735" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/LOL_AllySlain.wav", "label": "An ally has been slain", "sha256": "d158b63cf6538aa5a02bc790da9aeaf1511af573a9f8422f6be40a231cfd5e17" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/LOL_Hold.wav", "label": "Hold ping", "sha256": "5bcd1a34e7d529cdc7fa03057f2417ace73bd3912f13783f9b4507e30533e70c" }
+      ]
+    }
+  }
+}
