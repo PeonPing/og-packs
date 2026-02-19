@@ -2,10 +2,10 @@
   "cesp_version": "1.0",
   "name": "sc_scv",
   "display_name": "StarCraft SCV",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": {
-    "name": "workdd",
-    "github": "workdd"
+    "name": "harrymunro",
+    "github": "harrymunro"
   },
   "license": "CC-BY-NC-4.0",
   "language": "en",
@@ -14,7 +14,7 @@
       "sounds": [
         {
           "file": "sounds/GoodToGoSir.mp3",
-          "label": "Good to go, sir",
+          "label": "SCV good to go, sir",
           "sha256": "ee1f3e2f0c4ab6af4ed397b6d2de8f2b39a43ab33ef770f86d5cc145a6152f68"
         }
       ]
@@ -27,69 +27,114 @@
           "sha256": "96cf9d0f9ca1fca5d6e4e608ab40ea3d42d16ba92fdb385b94a51523ab862d64"
         },
         {
-          "file": "sounds/IReadYou.mp3",
-          "label": "I read you",
-          "sha256": "13bb640b3f25bd822a1db81babc5fe5340648d88f45cf316f80e311edd5807c0"
+          "file": "sounds/RogerThat.mp3",
+          "label": "Roger that",
+          "sha256": "a24844e87d1c6370b060c072f15fd1e3dfaabc0f1d142c35f228b1d00996e741"
         },
         {
-          "file": "sounds/OrdersCapn.mp3",
-          "label": "Orders, Cap'n",
-          "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
+          "file": "sounds/RightAwaySir.mp3",
+          "label": "Right away, sir",
+          "sha256": "ca618c5d3b0727e343ddc68c21b9e3f824278107d9b0ed8f1f8efef738cbdb52"
+        },
+        {
+          "file": "sounds/OrdersReceived.mp3",
+          "label": "Orders received",
+          "sha256": "ea90449a6a8017fa98cb84d55475c0589e0cb1f70ac861af71ff39d0840726f4"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/JobsFinished.mp3",
+          "label": "Job's finished",
+          "sha256": "ae626bc59bd95658139384afa34b1cf96ee9620e74d862ec6e84d1388604e4a8"
+        },
+        {
           "file": "sounds/GoodToGoSir.mp3",
-          "label": "Good to go, sir",
+          "label": "SCV good to go, sir",
           "sha256": "ee1f3e2f0c4ab6af4ed397b6d2de8f2b39a43ab33ef770f86d5cc145a6152f68"
-        },
-        {
-          "file": "sounds/Affirmative.mp3",
-          "label": "Affirmative",
-          "sha256": "96cf9d0f9ca1fca5d6e4e608ab40ea3d42d16ba92fdb385b94a51523ab862d64"
-        }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        {
-          "file": "sounds/IReadYou.mp3",
-          "label": "I read you",
-          "sha256": "13bb640b3f25bd822a1db81babc5fe5340648d88f45cf316f80e311edd5807c0"
-        },
-        {
-          "file": "sounds/OrdersCapn.mp3",
-          "label": "Orders, Cap'n",
-          "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
+          "file": "sounds/SomethingsInTheWay.mp3",
+          "label": "I can't build it, somethin's in the way",
+          "sha256": "809e4be37c7b26c0ab38b2d8b5efe85e6e4c51f0c59459eb201f50c7bfefa823"
+        },
+        {
+          "file": "sounds/CantBuildThere.mp3",
+          "label": "I can't build there",
+          "sha256": "acd0473aa6b82d5ecb64183a9bd795bbbc145f274ae7825a14f45c91a17c7f6e"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/YesSir.mp3",
+          "label": "Yes, sir?",
+          "sha256": "c1bb8ef75a022d7810422e042982be9b15deb2c281ee3c27801873780252ff7e"
+        },
+        {
+          "file": "sounds/OrdersCapn.mp3",
+          "label": "Orders, Cap'n?",
+          "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
+        },
+        {
           "file": "sounds/IReadYou.mp3",
           "label": "I read you",
           "sha256": "13bb640b3f25bd822a1db81babc5fe5340648d88f45cf316f80e311edd5807c0"
+        },
+        {
+          "file": "sounds/ReportinForDuty.mp3",
+          "label": "Reportin' for duty",
+          "sha256": "d79c6b5d62ccf195d4499df28f13feb3141473b8720c8f54458b16269f495b99"
         }
       ]
     },
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/OrdersCapn.mp3",
-          "label": "Orders, Cap'n",
-          "sha256": "f82d18ff2d87f450b93526740ebae991dd103e573885fd6f2077792d4b1f3865"
+          "file": "sounds/Claustrophobic.mp3",
+          "label": "I can't believe they put me in one of these things!",
+          "sha256": "2737e81c224ef67c2e41e19087fd7acdbe6f78776558ef268b60a844c2192f56"
+        },
+        {
+          "file": "sounds/PutUpWithThis.mp3",
+          "label": "And now I gotta put up with this too?",
+          "sha256": "c1e73e5db8d967305635d3a0b7807099b0bda8f3f63a9c81679d9a1065cde823"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/Affirmative.mp3",
-          "label": "Affirmative",
-          "sha256": "96cf9d0f9ca1fca5d6e4e608ab40ea3d42d16ba92fdb385b94a51523ab862d64"
+          "file": "sounds/ComeAgainCapn.mp3",
+          "label": "Come again, Cap'n?",
+          "sha256": "99ae9759f823413a6310083f7a2613acbcc1553b84e813e40409ed7274973e98"
+        },
+        {
+          "file": "sounds/NotReadinYou.mp3",
+          "label": "I'm not readin' you clearly",
+          "sha256": "9ba32ce916f9cd326caa09c47e019979a47e4039aab9651940fa2b4013a668fb"
+        },
+        {
+          "file": "sounds/AintFromAround.mp3",
+          "label": "You ain't from around here, are ya?",
+          "sha256": "79e09bee0bddcc2a5fb3d705eacec8054e5f205b82e5c2344dc2e5457e493697"
+        },
+        {
+          "file": "sounds/FrogsButt.mp3",
+          "label": "I'm locked in here tighter than a frog's butt in a watermelon seed fight",
+          "sha256": "1c16b0c0b971c6d49699d625ed5772e33e54596ea67c091d1e8be7df5e8a147f"
+        },
+        {
+          "file": "sounds/ClaustrophobicGetOut.mp3",
+          "label": "I told 'em I was claustrophobic, I gotta get outta here!",
+          "sha256": "b79bc66f6ad3e93b5e6b2e0c3bfd2da83050a74cd644d66a5e4b44085c24f3d4"
         }
       ]
     }
