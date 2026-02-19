@@ -1,0 +1,92 @@
+{
+  "cesp_version": "1.0",
+  "name": "pikachu",
+  "display_name": "Pikachu",
+  "version": "1.0.0",
+  "author": {
+    "name": "chris-halim",
+    "github": "chris-halim"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_Hello.wav",
+          "label": "Excited Pikachuuu! greeting",
+          "sha256": "f7fc8f07e6d1ba2e0e7364d9f6f88c52dba505e6a5f8dc0a4905dda88ead7fa3"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_OnIt.wav",
+          "label": "Sustained Pika — on it!",
+          "sha256": "837d93c0dbe14022bfa2f416ee82f5bf8a82a3dcc0811a85be6f9f1ed25badb5"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_LevelUp.wav",
+          "label": "Gen 1 level up jingle",
+          "sha256": "90656514b6ca0d05b405e2f9888dd65788565e75013a176cabfd7de23cf68c47"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_Sad.wav",
+          "label": "Sad tired Pikachu",
+          "sha256": "f9593bc06ef37ed1c332114a74cceb503d21339216de2da553366fd4b4e8db8a"
+        },
+        {
+          "file": "sounds/PIKA_Hurt.wav",
+          "label": "Pikachu hurt cry",
+          "sha256": "d0f81c66c2a3cdef3324c69e8d169f6df9c93913cd4c439b61a9a0402218309c"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_Question1.wav",
+          "label": "Quick rising Pika?",
+          "sha256": "9305fe03faa4e9e52c55937cc309130572cca61e32c92024c6b733d8dfdc0837"
+        },
+        {
+          "file": "sounds/PIKA_Question2.wav",
+          "label": "Short questioning Pika?",
+          "sha256": "624803fd8638eb4a0eb34e2624cbfd1f5a6c85f58387051c5923ef6845f31996"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_Worried.wav",
+          "label": "Worried Pikachu warning",
+          "sha256": "89eb06edefcbfb49aba3ec56ee0f724d95f2f3935b8dda467ae96a2c7f241d7e"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PIKA_Thunder.wav",
+          "label": "Thunderbolt attack",
+          "sha256": "69efb986ee77299db9d8065cb79cbf14c9e12a577b291a1556a1abb397b4bf75"
+        },
+        {
+          "file": "sounds/PIKA_Zap.wav",
+          "label": "Quick electric zap",
+          "sha256": "ee6e356b303241a9bb4f1c0c5126aa373358ceaccb0d344ec197d4f1150e4029"
+        }
+      ]
+    }
+  }
+}
