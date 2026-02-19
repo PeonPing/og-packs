@@ -1,0 +1,177 @@
+{
+  "cesp_version": "1.0",
+  "name": "cs16",
+  "display_name": "Radio (Counter-Strike 1.6)",
+  "version": "1.0.0",
+  "author": {
+    "name": "harrymunro",
+    "github": "harrymunro"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/letsgo.wav",
+          "label": "Ok, let's go",
+          "sha256": "52305ce77447b4d5e653d2d5a43a1950541c72413224bc658744f9c38ce7cff5"
+        },
+        {
+          "file": "sounds/locknload.wav",
+          "label": "Lock and load",
+          "sha256": "5bf9e47d8049cbb01f07ef4103f1412b7657dd743d6f21213cf258a08024c480"
+        },
+        {
+          "file": "sounds/moveout.wav",
+          "label": "Alright, let's move out",
+          "sha256": "a9f507150578920fa14b587774d7cf776d500873b2fdde8cb17309878f581795"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ct_affirm.wav",
+          "label": "Affirmative",
+          "sha256": "dd8df5be670ef41cc1d6832c28af284294b37f4931710ebc70ad1c5b90a63c89"
+        },
+        {
+          "file": "sounds/roger.wav",
+          "label": "Roger that",
+          "sha256": "5f1638bc1d1eafd15052146dc640b043866cf3baadea9950900278562f9990f8"
+        },
+        {
+          "file": "sounds/go.wav",
+          "label": "Go go go!",
+          "sha256": "3b86b0ed5accda7633d7f9a7ea8aee09670b6e2e804314d22d0b8c20ee40a2cd"
+        },
+        {
+          "file": "sounds/followme.wav",
+          "label": "Follow me",
+          "sha256": "520bf6f2008b77611df13d808e7fbc80da5df2794cfb1306bf95f05648e6b496"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/ctwin.wav",
+          "label": "Counter-terrorists win",
+          "sha256": "58461d222d8c20abda4721e10ab95cd272678dade19b5558506e55cbb2a5e209"
+        },
+        {
+          "file": "sounds/enemydown.wav",
+          "label": "Enemy down",
+          "sha256": "b67764832723ad8fcfa5ebbe15141f550e66f814d3e1e9194ce46605b4f0c9ea"
+        },
+        {
+          "file": "sounds/clear.wav",
+          "label": "Sector clear",
+          "sha256": "c39f7bfd8c52e4c05cb511a1f38b478835bd84546fa19f2c96d36c0d49b2ca87"
+        },
+        {
+          "file": "sounds/bombdef.wav",
+          "label": "Bomb has been defused",
+          "sha256": "b86e5bcf3f715fbb245f39bbe5d2a279cee6e94a773e16a7e6860456e069ab25"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/terwin.wav",
+          "label": "Terrorists win",
+          "sha256": "fe9ecb6e0b26bf28d5da0afe305d78a0e451264f3c300e9fc263be85ab77342f"
+        },
+        {
+          "file": "sounds/negative.wav",
+          "label": "Negative",
+          "sha256": "a408f5fd3b7e7864ba9beb20271861eeb8e46eea0859e8adfcf108b67218e8d1"
+        },
+        {
+          "file": "sounds/matedown.wav",
+          "label": "Man down!",
+          "sha256": "063cba36a57249f5b97debfccd2c84ae545f2ec69b3ae344533e55c33c80ffc5"
+        },
+        {
+          "file": "sounds/bombpl.wav",
+          "label": "Bomb has been planted",
+          "sha256": "38fc654133a334b8690265490f16b3035bf320c5ef3a75bf5761a896e61a6e34"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/com_reportin.wav",
+          "label": "Report in, team",
+          "sha256": "c7df925563c58c07f1ac319e24ce435c9d20707064be12e85cbfcddd15069967"
+        },
+        {
+          "file": "sounds/com_getinpos.wav",
+          "label": "Get in position and wait for my go",
+          "sha256": "91577d46ef8e30cdc03caefa3d6ea999cbc1fc6752010c9d8a151ed6e01c12d2"
+        },
+        {
+          "file": "sounds/position.wav",
+          "label": "Get in position",
+          "sha256": "99038919fa8a7d89677ddd89beb3558ad6fec54f50a35917c7ec6b7f856cf2f7"
+        },
+        {
+          "file": "sounds/ct_reportingin.wav",
+          "label": "Reporting in",
+          "sha256": "333058dd0247fecc4aa5a164be21043622b545482cbc0e5826ab36ffbf39b6b8"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ct_backup.wav",
+          "label": "Need backup",
+          "sha256": "074168870b89128729b71eece8faa02f01fc7def67f90ccba5e214e9b628e35a"
+        },
+        {
+          "file": "sounds/ct_imhit.wav",
+          "label": "Taking fire, need assistance",
+          "sha256": "4d1a9a24475cf7ca9a3d41c52ad3a3d4cb7ccf5669765444aa3cc2e79dbf4050"
+        },
+        {
+          "file": "sounds/fallback.wav",
+          "label": "Team, fall back!",
+          "sha256": "0007234376ea98d7d5d10ea67158677ae42f5557e3d3e397e3db8bd6836396b0"
+        },
+        {
+          "file": "sounds/regroup.wav",
+          "label": "Regroup team",
+          "sha256": "f1f2fff32a7394d0e97d260c7894ea8f2dfa5e270e73f1c0ecf45a64e54d9a2e"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/stormfront.wav",
+          "label": "Storm the front!",
+          "sha256": "63ca8d79fb1f6101d2ca04aee81fa9080b85384aa2237a3ae7645059058ec1c1"
+        },
+        {
+          "file": "sounds/blow.wav",
+          "label": "Get out of there, it's gonna blow!",
+          "sha256": "4bd2cac08a309dc4e987d77bcd21abc6fdb835ba4ca9406cf1b09b1feb2445b3"
+        },
+        {
+          "file": "sounds/getout.wav",
+          "label": "Get out of there!",
+          "sha256": "fcb785a1bb681d9b6e7261ab74539384155a21d833e2c97049449acf9a8c9423"
+        },
+        {
+          "file": "sounds/ct_fireinhole.wav",
+          "label": "Fire in the hole",
+          "sha256": "a2672154c93403e0bc16f64eb4e30173ce7d3ace841bb1821da29b68a02bdfa4"
+        }
+      ]
+    }
+  }
+}
