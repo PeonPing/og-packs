@@ -19,7 +19,7 @@
         },
         {
           "file": "sounds/PeonWhat1.wav",
-          "label": "Да?",
+          "label": "Угу.",
           "sha256": "c5d28882c40411154649980d367331b9aff81bd3fb685819c1e9fc0a2e0d6d39"
         },
         {
@@ -76,6 +76,11 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/PeonJobDone.wav",
+          "label": "Дело сделано!",
+          "sha256": "e950bae3f85c89bdc87a2826f7fa251c4afb7b2258fe49441a2b9aa5361c30a1"
+        },
+        {
           "file": "sounds/PeonReady1.wav",
           "label": "Готов вкалывать!",
           "sha256": "62722dd2c0d3050cc8fae615ec28e1b43456779c9e45462bd936afcc439c667a"
@@ -92,7 +97,7 @@
         },
         {
           "file": "sounds/PeonYesAttack1.wav",
-          "label": "Ага .",
+          "label": "Ага.",
           "sha256": "3fcc96a0f6192e7db467be15e61aae23a0dda2cdfa80c378a45963284eb7ec71"
         },
         {
@@ -115,22 +120,22 @@
       "sounds": [
         {
           "file": "sounds/PeonWhat4.wav",
-          "label": "Есть чё делать?",
+          "label": "Чё надо, хозяин?",
           "sha256": "0effa8b91ec476a2b6addafebb7f5b6cf5d1dbd84ab0cd3c0c54728b8035e7a1"
         },
         {
           "file": "sounds/PeonWhat2.wav",
-          "label": "Хмм?",
+          "label": "Да?",
           "sha256": "9d5ab770416487154e5ae915aaecec137ada0aef71d2d9e6f8b342787edc89dd"
         },
         {
           "file": "sounds/PeonWhat3.wav",
-          "label": "Чё надо, хозяин?",
+          "label": "Чего хочешь?",
           "sha256": "84873648d16be9390246fca859683e6d2bb091b80afebcac84cd8c23faa86097"
         },
         {
           "file": "sounds/PeonWhat1.wav",
-          "label": "Да?",
+          "label": "Угу.",
           "sha256": "c5d28882c40411154649980d367331b9aff81bd3fb685819c1e9fc0a2e0d6d39"
         }
       ]
