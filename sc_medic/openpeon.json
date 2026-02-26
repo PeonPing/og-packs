@@ -2,10 +2,10 @@
   "cesp_version": "1.0",
   "name": "sc_medic",
   "display_name": "StarCraft Medic",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "author": {
-    "name": "workdd",
-    "github": "workdd"
+    "name": "kschmidtjr1",
+    "github": "kschmidtjr1"
   },
   "license": "CC-BY-NC-4.0",
   "language": "en",
@@ -13,78 +13,108 @@
     "session.start": {
       "sounds": [
         {
-          "file": "sounds/DoctorIsIn.mp3",
-          "label": "The doctor is in",
-          "sha256": "694b1b4c5c74766d0b52cdd34807f7bbfcf60c236d11791cffb40738976e218a"
+          "file": "sounds/PreppedAndReady.mp3",
+          "label": "Prepped and ready.",
+          "sha256": "39e9510648e0cdc5abc71f2c59572786510973814de3042957298c05b25359ca"
         }
       ]
     },
     "task.acknowledge": {
       "sounds": [
         {
-          "file": "sounds/WhereDoesItHurt.mp3",
-          "label": "Where does it hurt?",
-          "sha256": "06690f30b7951b46e1f705546c7a8e8782cd4f48c1b3f96b60a11e9f6ffc3560"
+          "file": "sounds/RightAway.mp3",
+          "label": "Right away.",
+          "sha256": "116c2de64a1a57c8ee14d1ab4be6a9db16b231563aa69a2b7df6eaa5474b3792"
         },
         {
-          "file": "sounds/YesDoctor.mp3",
-          "label": "Yes, doctor",
-          "sha256": "a5aa957bf1fd30524886b65b14c51f8f03ffff178d43251e1ea2cbbc70cae042"
+          "file": "sounds/Stat.mp3",
+          "label": "Stat!",
+          "sha256": "24f58911c5320d0a70d081de30081efa829daed2379f0ac6c749f3431f9caf71"
+        },
+        {
+          "file": "sounds/ImOnTheJob.mp3",
+          "label": "I'm on the job!",
+          "sha256": "010bd97e8c6c6a23dd29ff9fa4c6f7533ebafb9b43b3c9f976a868e071bffeba"
+        },
+        {
+          "file": "sounds/OnMyWay.mp3",
+          "label": "On my way!",
+          "sha256": "5fe272015bb45ce05f667dc48b36b5e3dadb8512ea177db051d3d89d976f8ac1"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/PatchedUp.mp3",
-          "label": "All patched up!",
-          "sha256": "2d1aa00022d80c037a60ba3c79ab6d176bf33d67b2db442965fa7f37a4b48249"
+          "file": "sounds/NeedMedicalAttention.mp3",
+          "label": "Need medical attention?",
+          "sha256": "577e2caae0eca4a4878c167647871cbdea7b23eee99a5d7119a80764cc1c11ce"
         },
         {
-          "file": "sounds/YesDoctor.mp3",
-          "label": "Yes, doctor",
-          "sha256": "a5aa957bf1fd30524886b65b14c51f8f03ffff178d43251e1ea2cbbc70cae042"
-        }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        {
-          "file": "sounds/WhereDoesItHurt.mp3",
-          "label": "Where does it hurt?",
-          "sha256": "06690f30b7951b46e1f705546c7a8e8782cd4f48c1b3f96b60a11e9f6ffc3560"
+          "file": "sounds/DidSomeonePageMe.mp3",
+          "label": "Did someone page me?",
+          "sha256": "d2385a2a935537aa669aa7e1f819cfd1906693251078e3516f5f8a8bf56a8244"
         }
       ]
     },
     "task.error": {
       "sounds": [
         {
-          "file": "sounds/WhereDoesItHurt.mp3",
-          "label": "Where does it hurt?",
-          "sha256": "06690f30b7951b46e1f705546c7a8e8782cd4f48c1b3f96b60a11e9f6ffc3560"
+          "file": "sounds/Death1.mp3",
+          "label": "Death",
+          "sha256": "eed1315282c303f765baff1aa748bf826a7ee90f1bd26e81df4f964adc215b81"
+        },
+        {
+          "file": "sounds/HesDeadJim.mp3",
+          "label": "He's dead, Jim.",
+          "sha256": "cf5e6f79db539358b4efaa425f570a6a23a8c9b1b74cce7040c1967d13a32153"
         }
       ]
     },
-    "resource.limit": {
+    "input.required": {
       "sounds": [
         {
-          "file": "sounds/DoctorIsIn.mp3",
-          "label": "The doctor is in",
-          "sha256": "694b1b4c5c74766d0b52cdd34807f7bbfcf60c236d11791cffb40738976e218a"
+          "file": "sounds/StateTheNature.mp3",
+          "label": "State the nature of your medical emergency.",
+          "sha256": "6e785fcfea133ff84c49219c4257926c8c97c5361bdadf74b54d88e4e5c229ce"
+        },
+        {
+          "file": "sounds/WhereDoesItHurt.mp3",
+          "label": "Where does it hurt?",
+          "sha256": "e72bb15b2486cb8d55366e7f3df908263e7b19a6d1e47748fdaf75981752d311"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/YesDoctor.mp3",
-          "label": "Yes, doctor",
-          "sha256": "a5aa957bf1fd30524886b65b14c51f8f03ffff178d43251e1ea2cbbc70cae042"
+          "file": "sounds/AlreadyCheckedYouOut.mp3",
+          "label": "I've already checked you out commander.",
+          "sha256": "535137c3892dd754773f07ffe58b5327a15be1b9fdaf91b756281442b9ba7c21"
         },
         {
-          "file": "sounds/PatchedUp.mp3",
-          "label": "All patched up!",
-          "sha256": "2d1aa00022d80c037a60ba3c79ab6d176bf33d67b2db442965fa7f37a4b48249"
+          "file": "sounds/AnotherPhysical.mp3",
+          "label": "You want another physical?",
+          "sha256": "fbb59bf952ac0c51d299047bd18d54dde4cf08e63db63029fb0fc1034f08d2f2"
+        },
+        {
+          "file": "sounds/TurnYourHeadAndCough.mp3",
+          "label": "Turn your head and cough.",
+          "sha256": "3bb95274202a41856edd7287d0887e7a63924bc920e2530c3616f1b3028d0fb8"
+        },
+        {
+          "file": "sounds/ReadyForYourSpongeBath.mp3",
+          "label": "Ready for your sponge-bath?",
+          "sha256": "e64f1d4ddf9196d1c92d8a4fe06bd5b4ba28009c487e107e7943dd0d2e150171"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/EKGIsFlatlining.mp3",
+          "label": "His EKG is flatlining! Give me a defib stat!",
+          "sha256": "d5595491471401e7281c115895e0c5259b16388b0d8a39cbe48379cb94498118"
         }
       ]
     }
