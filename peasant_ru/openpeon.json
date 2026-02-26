@@ -9,6 +9,7 @@
   },
   "license": "CC-BY-NC-4.0",
   "language": "ru",
+  "icon": "peasant.gif",
   "categories": {
     "session.start": {
       "sounds": [

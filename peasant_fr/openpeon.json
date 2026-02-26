@@ -9,6 +9,7 @@
   },
   "license": "CC-BY-NC-4.0",
   "language": "fr",
+  "icon": "peasant.gif",
   "categories": {
     "session.start": {
       "sounds": [

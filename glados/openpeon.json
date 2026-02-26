@@ -9,6 +9,7 @@
   },
   "license": "CC-BY-NC-4.0",
   "language": "en",
+  "icon": "GLaDOS_P2.png",
   "categories": {
     "session.start": {
       "sounds": [
