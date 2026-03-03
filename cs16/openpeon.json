@@ -2,13 +2,14 @@
   "cesp_version": "1.0",
   "name": "cs16",
   "display_name": "Radio (Counter-Strike 1.6)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "harrymunro",
     "github": "harrymunro"
   },
   "license": "CC-BY-NC-4.0",
   "language": "en",
+  "icon": "cs_icon.png",
   "categories": {
     "session.start": {
       "sounds": [
