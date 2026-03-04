@@ -1,0 +1,141 @@
+{
+  "cesp_version": "1.0",
+  "name": "wc3_grunt",
+  "display_name": "Orc Grunt",
+  "version": "1.0.0",
+  "author": {
+    "name": "Blizzard Entertainment"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/GruntReady1.wav",
+          "label": "My life for the Horde!",
+          "sha256": "f14fccc937ef1e355a3c5881c473c595ee5a22ec2be78314486a1af2b5041952"
+        },
+        {
+          "file": "sounds/GruntWhat1.wav",
+          "label": "Huh?",
+          "sha256": "a425c98eee38d86576d1887142455b51f021ebc0504e33f061bcb9fde2a502fb"
+        },
+        {
+          "file": "sounds/GruntWhat3.wav",
+          "label": "What?",
+          "sha256": "15444000a8e4de08153e9601e810d47e59e18dfcfe5913b2b124ee55e88c0701"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/GruntYes1.wav",
+          "label": "Lok'tar!",
+          "sha256": "61d3f291c6428faf0aa1a31c180ac8a8d91401f722c09e30274045a79969fc73"
+        },
+        {
+          "file": "sounds/GruntYes2.wav",
+          "label": "Zug zug",
+          "sha256": "f1742031c8de9c8b8da96a9ec0015a9df28314f9158dbd04ff6e7f9a39ff1437"
+        },
+        {
+          "file": "sounds/GruntYes3.wav",
+          "label": "Dabu",
+          "sha256": "649c7ee996230561c8dac478735e42f5af90033cb14102cd499efdfedb815761"
+        },
+        {
+          "file": "sounds/GruntYes4.wav",
+          "label": "Swobu",
+          "sha256": "6062522501ddc53bd7397b034a31aa344b83552fe2d624f1f91b5d44356f5861"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/GruntYesAttack1.wav",
+          "label": "For the Horde!",
+          "sha256": "2bc29c2804d03eade2761919fac3d973c84c2e00d4a8c118dbe758b55756b4eb"
+        },
+        {
+          "file": "sounds/GruntYesAttack2.wav",
+          "label": "Lok'tar ogar!",
+          "sha256": "5f92175ece107330b4006e9e0a1c1aae10e9ddb59b5ebf3f8e889933811f3b50"
+        },
+        {
+          "file": "sounds/GruntYesAttack3.wav",
+          "label": "Time to die!",
+          "sha256": "7d3756e69c3c9c21b50e5c5e5490bfccd11dbc7678d179f8138bcace5365dcad"
+        },
+        {
+          "file": "sounds/GruntWarcry1.wav",
+          "label": "WAAAAGH!",
+          "sha256": "3eadbf03a8dc0672f2c73d2f8ab422d91cecfe277a937dc1d7b0ddcc6a395162"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/GruntAngry1.wav",
+          "label": "Why you poking me again?",
+          "sha256": "2d26f950759a84472f062ec25c3df74fad28fb860eb265ab572d4f31f869f8e4"
+        },
+        {
+          "file": "sounds/GruntAngry2.wav",
+          "label": "Why don't you lead an army instead of touching me?",
+          "sha256": "fbe1899d04edb04af2da507881911882f70d2bc36b6b18cd6ecaf87d4e450f37"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/GruntWhat2.wav",
+          "label": "What you want?",
+          "sha256": "374f0373592233bba697668b14d864f6021866d50913c83e00202d02d88b9461"
+        },
+        {
+          "file": "sounds/GruntWhat4.wav",
+          "label": "Say the word",
+          "sha256": "9585c59b802c10f3b3ab87c09f7f441832c93c026250bf5db4a78ffb8d05afa0"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/GruntAngry3.wav",
+          "label": "Poke, poke, poke. Is that all you do?",
+          "sha256": "7f8ecaf0d95e18868684dc7dd33dc698c07d1314806f684fd3cd2b5a8ee1def1"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/GruntAngry4.wav",
+          "label": "Me so horned, me hurt you long time!",
+          "sha256": "667e345734b459b61ffb7e97e1e46bf778af32f050513f9b87de3f2d56057667"
+        },
+        {
+          "file": "sounds/GruntAngry5.wav",
+          "label": "Me no sound like Yoda. Do I?",
+          "sha256": "b6502657cb6e978a9f8e507c608b61172b50ebf1f0f60a3060de45b1a069677d"
+        },
+        {
+          "file": "sounds/GruntAngry6.wav",
+          "label": "It not easy being green...",
+          "sha256": "9c4ec512fb7fc9a3a20f337e26c2aa41c784ddaf61c0aa5a366a6702bff4e4fe"
+        },
+        {
+          "file": "sounds/GruntAngry7.wav",
+          "label": "Don't ask, don't tell.",
+          "sha256": "09315ec88a702d4b3a01b166f0f1e9c779571c3854be5cf5e999238a5ceebe31"
+        }
+      ]
+    }
+  }
+}

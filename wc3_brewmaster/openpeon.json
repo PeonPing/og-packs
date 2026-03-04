@@ -1,0 +1,151 @@
+{
+  "cesp_version": "1.0",
+  "name": "wc3_brewmaster",
+  "display_name": "Pandaren Brewmaster",
+  "version": "1.0.0",
+  "author": {
+    "name": "Blizzard Entertainment"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterReady1.wav",
+          "label": "Hail, friend!",
+          "sha256": "6a4fb634bbc7ec15b4445fb61ad7ef767a5976f33cc0d6149690e7e1e70e007c"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterWhat1.wav",
+          "label": "What'll it be?",
+          "sha256": "ac77acabe41b143b77e9fce3a86eb4e3748677da1f06b89f19d3d8508b9eec69"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterWhat3.wav",
+          "label": "Another round?",
+          "sha256": "3af8f7ed4472a38f66a85207e1f671e1ce393f1fdbca1e45c2083b3e182dd9cb"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterYes1.wav",
+          "label": "Ah, this'll be good",
+          "sha256": "911fcb040a89f5a9e94d59a47d2f99efca5f58d98edf0f2c77c217358ef583b1"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYes2.wav",
+          "label": "Buy me a drink first!",
+          "sha256": "75b979d61c6adb8425e3fbcf73c8ac6183bca25132dd8867cb7fdeb86b9e341b"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYes3.wav",
+          "label": "Let's do it!",
+          "sha256": "eee6cc87d511b74fb4857f7e04c19ab9e5354181a3c6e6ca81d31430c557ff86"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYes4.wav",
+          "label": "Sounds like a plan!",
+          "sha256": "8f4d2dea27ce9cdcd7e1d9c574afe424d91135e06df0f3a75d30a818e1465377"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterYesAttack1.wav",
+          "label": "Have a drink!",
+          "sha256": "cd0c1ecc3c8781a30ed5e9d293ce717abd4b352ca9b5df8b74afa16656347f29"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYesAttack2.wav",
+          "label": "On the house!",
+          "sha256": "5821afce0c427b6d06e0fa13e82374dd8d5478e1a95d6b2f49a39b7b3e461b4b"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYesAttack3.wav",
+          "label": "Last call!",
+          "sha256": "188bb2f00d0dd83ed8fd1a5590bc151ede99b7899b45b4feb25f868fb84afafa"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterYesAttack4.wav",
+          "label": "Time to fight!",
+          "sha256": "781b94e530fe3e1747fb7b04e6941f6fb1311fdfd664325ef68216142ade02b3"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterWarcry1.wav",
+          "label": "For Pandaria!",
+          "sha256": "67f753273a6704b3facd1c1aefc6fbf7afb662808cb35ded15314fd8a1eb16a9"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterAngry1.wav",
+          "label": "I can see my house from here!",
+          "sha256": "31becf7f9b9d301829bede442a44cf6349e997c5c52c96aeed181dc0cae3cbaf"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterAngry2.wav",
+          "label": "Stagger... stagger...",
+          "sha256": "5425e742dcf27bccdec0d0049aea59154edfb70bedacf44e84dd6e71de6d6145"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterWhat2.wav",
+          "label": "What's brewing?",
+          "sha256": "4e71bd74d8293569db752943cada076b8b0dd14118944236586646cb04b88373"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterWhat4.wav",
+          "label": "How may I serve?",
+          "sha256": "3a34e28a784aedc240db9328673587362517863363b02d97358b8ab6b743b8f3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterAngry3.wav",
+          "label": "I'd rather be drinking...",
+          "sha256": "81b9738f370bf04fcd307575954a06ac20a6137182d1a2260bea2a2a7dd587ce"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/PandarenBrewmasterAngry4.wav",
+          "label": "Last time I got this drunk...",
+          "sha256": "3c39c37b805b3b9bcfe82ae6aa75d4cb31df84a27abdcf15fa6abf5374dd3ee9"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterAngry5.wav",
+          "label": "My dad... he was a brewmaster...",
+          "sha256": "a6289315d545e822cd67308197c18dd5b68857f3028da6f0da3eef6daeb174e6"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterAngry6.wav",
+          "label": "Fresh, cool ale here!",
+          "sha256": "f9a63cb3b1e453a93483a680d2b95ad7052fced72b925471f45790721df9facb"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterAngry7.wav",
+          "label": "You seem a little... parched.",
+          "sha256": "32a030608059eaf1901385479e246e6c7021bc9d53869ec9f9fd2a147682ed8b"
+        },
+        {
+          "file": "sounds/PandarenBrewmasterAngry8.wav",
+          "label": "Don't shake the keg!",
+          "sha256": "55f00ed67c7132a8c3fb1324068a82baec2495bcd9a685f5de10ac4054cbde03"
+        }
+      ]
+    }
+  }
+}

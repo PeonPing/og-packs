@@ -1,0 +1,131 @@
+{
+  "cesp_version": "1.0",
+  "name": "wc3_farseer",
+  "display_name": "Orc Far Seer",
+  "version": "1.0.0",
+  "author": {
+    "name": "Blizzard Entertainment"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerReady1.wav",
+          "label": "The future is ours!",
+          "sha256": "62ea8bd9118f4ca0008a52851a38a05bbfa11e499fe79be9e62b4dd68b5521d6"
+        },
+        {
+          "file": "sounds/HeroFarseerWhat1.wav",
+          "label": "My eyes are open",
+          "sha256": "173643dcd50edb57dd7da3206fa6e0c34f3f436c77df7195dead2578b687f3e7"
+        },
+        {
+          "file": "sounds/HeroFarseerWhat3.wav",
+          "label": "I see...",
+          "sha256": "8295783af0ec08ac8d1c360c934cb64b645390ec7e61eaf5990a828eaa8c3130"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerYes1.wav",
+          "label": "Of course",
+          "sha256": "4426469178e2fe53f723b5f23571da65916a9ff9c7c7f14a8868e15f5df15394"
+        },
+        {
+          "file": "sounds/HeroFarseerYes2.wav",
+          "label": "It is certain",
+          "sha256": "986bb69569f7c41450b0a709221d81e013ae17c6305453e120a51f5bb9a5cb33"
+        },
+        {
+          "file": "sounds/HeroFarseerYes3.wav",
+          "label": "I see the path",
+          "sha256": "99790073996f39d525b787bb9edfd1dbe1515bdbbd594d308de0cea43ec1679d"
+        },
+        {
+          "file": "sounds/HeroFarseerYes4.wav",
+          "label": "Wise choice",
+          "sha256": "4aabefec33a058e965a1d1d24a56279ba700c848fc15d8b4078e2774ac2b0c99"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerYesAttack1.wav",
+          "label": "Spirit strike!",
+          "sha256": "642fee5755f4444c73a43282aaf0905f07604a2a5629f3f735c839b47fb33027"
+        },
+        {
+          "file": "sounds/HeroFarseerYesAttack2.wav",
+          "label": "Feel the wrath!",
+          "sha256": "7b4b2c6615e1a827e9d68738f9f709978f6c16af60c6b0bb8b4f7e1a386b1056"
+        },
+        {
+          "file": "sounds/HeroFarseerYesAttack3.wav",
+          "label": "The spirits are restless!",
+          "sha256": "7c5d41501ac78abbf4fdfdbe6484d8f011b5aa5c98a54f33cc992f35a7baad2d"
+        },
+        {
+          "file": "sounds/HeroFarseerWarcry1.wav",
+          "label": "Storm, earth, and fire!",
+          "sha256": "94011f7c1f9ef55250fc782aeb62b6a73670d78392d5f56a56dbf376e451b1fb"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerAngry1.wav",
+          "label": "The spirits are... disturbed.",
+          "sha256": "a8c630582448948a906b18c8f7def3fe55c99db969a20aef096dc80b148bfd80"
+        },
+        {
+          "file": "sounds/HeroFarseerAngry2.wav",
+          "label": "I see dead people.",
+          "sha256": "92da75c2a93a199b6617513565b50a73e58b8f369fa8c578fbe0146c72985edf"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerWhat2.wav",
+          "label": "I have foreseen it",
+          "sha256": "24215c78fadddeb02eee9e1c34a942402d79cf535503fe38e698ccc4ccf4b8d3"
+        },
+        {
+          "file": "sounds/HeroFarseerWhat4.wav",
+          "label": "Speak to me",
+          "sha256": "c6beb59d93dc75d3f4c772b87e0117ed059e7bf147611d15a6f8f059206df2f3"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerAngry3.wav",
+          "label": "The spirits grow uneasy...",
+          "sha256": "2f5075d9511a7ab8e640f71b60e3d63cbe6b3ca278fb9ab4f6ee7b5dae584c54"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/HeroFarseerAngry4.wav",
+          "label": "You know, I used to be a Death Knight...",
+          "sha256": "f8d1a124925627dda3c1f0b4f88204eb8f0f2bf8536e2c9dbef81ebbc57848fa"
+        },
+        {
+          "file": "sounds/HeroFarseerAngry5.wav",
+          "label": "Back in the old days, we just killed everyone.",
+          "sha256": "f0dfe2b71968c78bce05d95bca3828ed391bc33cca6ad79c1475f67b945d9aa4"
+        }
+      ]
+    }
+  }
+}
