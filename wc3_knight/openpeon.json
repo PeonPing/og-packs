@@ -1,0 +1,136 @@
+{
+  "cesp_version": "1.0",
+  "name": "wc3_knight",
+  "display_name": "Human Knight",
+  "version": "1.0.0",
+  "author": {
+    "name": "Blizzard Entertainment"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/KnightReady1.wav",
+          "label": "Your honor is my life!",
+          "sha256": "78824c7538aca2d3b9795ada6d2bec5914cf08d354947e095e390b2caeb82223"
+        },
+        {
+          "file": "sounds/KnightWhat1.wav",
+          "label": "Yes, my liege?",
+          "sha256": "d5c1aeccda254839b67cfef4a259a995e0c5e7a65a65a0868ff5399ff782ea91"
+        },
+        {
+          "file": "sounds/KnightWhat3.wav",
+          "label": "What is thy bidding?",
+          "sha256": "2a841ec927c23f8e3cb9b55c05263ce384a8973ea00c60132236338ba0685806"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/KnightYes1.wav",
+          "label": "By your command",
+          "sha256": "e11f86a269daa3739f9986af28f48fc59dbcadc4c1507ac27ab7b359042f5e37"
+        },
+        {
+          "file": "sounds/KnightYes2.wav",
+          "label": "As you wish",
+          "sha256": "0766dd6a446cd61e32c59fb6e7b19dc3dd28cf613cd10e6c61c9bab009b8c6a0"
+        },
+        {
+          "file": "sounds/KnightYes3.wav",
+          "label": "Indeed",
+          "sha256": "9993f0ffc9709ae8ae0638904e9f8186e1cd25deb1e85f55c6a93a7d9dd8643a"
+        },
+        {
+          "file": "sounds/KnightYes4.wav",
+          "label": "For honor!",
+          "sha256": "afffea9a079d30efde346a537c7723e7d8640e3ad8836f0586f2732e00118537"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/KnightYesAttack1.wav",
+          "label": "For Lordaeron!",
+          "sha256": "aa1da10876109c32a0da3a635a6b344082a7c3e4d9a7030ca10680909a583921"
+        },
+        {
+          "file": "sounds/KnightYesAttack2.wav",
+          "label": "For the king!",
+          "sha256": "56315a3f3781275a5e2030301645f14884e79eff3090b35d14f51a5432175f13"
+        },
+        {
+          "file": "sounds/KnightYesAttack3.wav",
+          "label": "To arms!",
+          "sha256": "443d45bc2f39111ec86c1064698eab948862158269447a4d7c457f4e2caf27e4"
+        },
+        {
+          "file": "sounds/KnightWarcry1.wav",
+          "label": "Charge!",
+          "sha256": "599966b320f7e924b86ffbb3235d4a7266a3411c4ace115e755de365fa1815e9"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/KnightAngry1.wav",
+          "label": "I have been chosen by the big metal hand in the sky!",
+          "sha256": "72a63163f775b8abd1e773a426fcaab7e79c29ce8a2bb90903fc8f1f287f7072"
+        },
+        {
+          "file": "sounds/KnightAngry2.wav",
+          "label": "Are you sure he should be driving?",
+          "sha256": "8faabaa6cc32d37b552012af82ecf49bc88d6d7412d8c8c02bb9f38dd94e23f8"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/KnightWhat2.wav",
+          "label": "Orders?",
+          "sha256": "d81f450e3d25541d6e9c5012bf245c32733bc4b4db1e2142e57c97509e8a9ff4"
+        },
+        {
+          "file": "sounds/KnightWhat4.wav",
+          "label": "Command me",
+          "sha256": "ef4ed91f45f2175aaf2ed089163d59a4064b7bb10c95dacc43502d8db50e25b8"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/KnightAngry3.wav",
+          "label": "Let's see, lance, sword, mace, dagger...",
+          "sha256": "7b1ab6d7506796f24b32f6093712ad07f897bcf3c1cfcea47f2e33706b248de3"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/KnightAngry4.wav",
+          "label": "Hey, what's that smell? Oh, it's me.",
+          "sha256": "067d350b0c577659ca864ff15a33e76b62683e79c284748f6814d7dc66894d49"
+        },
+        {
+          "file": "sounds/KnightAngry5.wav",
+          "label": "I used to crave adventure...",
+          "sha256": "23034bc5ec0f6210b8c9b33585704e6ab08e034864730cbfa17e24de2e0104e5"
+        },
+        {
+          "file": "sounds/KnightAngry6.wav",
+          "label": "You know, there's a 10 gold surcharge on jousting...",
+          "sha256": "a93b23d28cb613b5cf3d240dddf6902092310285b9f902ba9e5919f4ae400068"
+        }
+      ]
+    }
+  }
+}
