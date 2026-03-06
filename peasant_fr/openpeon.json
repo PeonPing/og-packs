@@ -67,6 +67,11 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/JobDone.wav",
+          "label": "Travail terminé !",
+          "sha256": "b421d9e75d5587bbb8385579caf341ebd4c0272416db79631f058f20835d9d0b"
+        },
+        {
           "file": "sounds/PeasantReady1.wav",
           "label": "Prêt à travailler !",
           "sha256": "dfacda295dc2b996b2c1dcbddc35c4b4a409a8fbffd78537ca650d3304b0827a"

@@ -71,6 +71,11 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/PeonJobDone.wav",
+          "label": "Travail terminé !",
+          "sha256": "f990330302929bf871378c1d6cf85058611aab93ea0f88c357bffd03a909a493"
+        },
+        {
           "file": "sounds/PeonReady1.wav",
           "label": "Travail, travail !",
           "sha256": "91cded044336a3c58d0a412d0fc190d23b6a722db023815da5f58de706b90028"
