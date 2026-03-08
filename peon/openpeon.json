@@ -14,18 +14,13 @@
       "sounds": [
         {
           "file": "sounds/PeonReady1.wav",
-          "label": "Ready to work?",
+          "label": "Ready to work!",
           "sha256": "c821c124004af55b1d1bc97261e4f4521e234b78748addd585b3f03711f64584"
         },
         {
-          "file": "sounds/PeonWhat1.wav",
-          "label": "Yes?",
-          "sha256": "d4f5696d9db6875c80c8dccf95f6d8047a4564b214be90792b8a766e313106a3"
-        },
-        {
-          "file": "sounds/PeonWhat3.wav",
-          "label": "What you want?",
-          "sha256": "4e8197030f01cbaef968ddb9566f19bfd68b3af622748238a3049d218bb64eed"
+          "file": "sounds/PeonWhat4.wav",
+          "label": "Something need doing?",
+          "sha256": "6ee4f9d9f9d2fede1f953a196de8875dba2ffefa0c5c732adad3de45bbaf090e"
         }
       ]
     },
@@ -42,28 +37,13 @@
           "sha256": "1aaee40174ef4f6109dadc1d28edcbcd63eae27bd9e0b520c40c17e988a365d6"
         },
         {
-          "file": "sounds/PeonYes3.wav",
-          "label": "Work, work.",
-          "sha256": "18669847b60fc5b1bb41327dc075412aeb2a823d5a9d84476ddc2960baffa959"
-        },
-        {
           "file": "sounds/PeonYes4.wav",
           "label": "Okie dokie.",
           "sha256": "89b9f19fec29fde3b513cc98bcf1614a6d264850f65e6816a4483ac49dc34cc2"
         },
         {
-          "file": "sounds/PeonYesAttack1.wav",
-          "label": "OK.",
-          "sha256": "2f22168c1e7ea041286a26d568771d0f89438229555020d6a4a00b4b860c67de"
-        },
-        {
-          "file": "sounds/PeonYesAttack2.wav",
-          "label": "I can do that.",
-          "sha256": "bdf41f5f2d94103c8ef7a965701654a3921063920c7d98abd49c85eb064e1707"
-        },
-        {
           "file": "sounds/PeonYesAttack3.wav",
-          "label": "Be happy to.",
+          "label": "I'll try!",
           "sha256": "097361087515743db44ee93bfc4865fc331d270cb512805844610259a012b869"
         }
       ]
@@ -76,39 +56,9 @@
           "sha256": "e6d666c474ea82b2e4b6f22756a9e95218fa2f6053a138f68e6237e196803ae6"
         },
         {
-          "file": "sounds/PeonReady1.wav",
-          "label": "Ready to work?",
-          "sha256": "c821c124004af55b1d1bc97261e4f4521e234b78748addd585b3f03711f64584"
-        },
-        {
-          "file": "sounds/PeonWhat4.wav",
-          "label": "Something need doing?",
-          "sha256": "6ee4f9d9f9d2fede1f953a196de8875dba2ffefa0c5c732adad3de45bbaf090e"
-        },
-        {
-          "file": "sounds/PeonYes1.wav",
-          "label": "I can do that.",
-          "sha256": "a644ec5632e566df6c057e124319884b5123eea5d5f54b04280b097c2231cc0b"
-        },
-        {
-          "file": "sounds/PeonYes2.wav",
-          "label": "Be happy to.",
-          "sha256": "1aaee40174ef4f6109dadc1d28edcbcd63eae27bd9e0b520c40c17e988a365d6"
-        },
-        {
           "file": "sounds/PeonYes3.wav",
           "label": "Work, work.",
           "sha256": "18669847b60fc5b1bb41327dc075412aeb2a823d5a9d84476ddc2960baffa959"
-        },
-        {
-          "file": "sounds/PeonYesAttack1.wav",
-          "label": "OK.",
-          "sha256": "2f22168c1e7ea041286a26d568771d0f89438229555020d6a4a00b4b860c67de"
-        },
-        {
-          "file": "sounds/PeonYesAttack3.wav",
-          "label": "Be happy to.",
-          "sha256": "097361087515743db44ee93bfc4865fc331d270cb512805844610259a012b869"
         }
       ]
     },
@@ -128,11 +78,6 @@
     },
     "input.required": {
       "sounds": [
-        {
-          "file": "sounds/PeonWhat4.wav",
-          "label": "Something need doing?",
-          "sha256": "6ee4f9d9f9d2fede1f953a196de8875dba2ffefa0c5c732adad3de45bbaf090e"
-        },
         {
           "file": "sounds/PeonWhat2.wav",
           "label": "Hmm?",
