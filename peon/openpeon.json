@@ -58,12 +58,12 @@
         },
         {
           "file": "sounds/PeonYesAttack2.wav",
-          "label": "I can do that.",
+          "label": "Get them!",
           "sha256": "bdf41f5f2d94103c8ef7a965701654a3921063920c7d98abd49c85eb064e1707"
         },
         {
           "file": "sounds/PeonYesAttack3.wav",
-          "label": "Be happy to.",
+          "label": "I'll try!",
           "sha256": "097361087515743db44ee93bfc4865fc331d270cb512805844610259a012b869"
         }
       ]
@@ -77,7 +77,7 @@
         },
         {
           "file": "sounds/PeonReady1.wav",
-          "label": "Ready to work?",
+          "label": "Ready to work!",
           "sha256": "c821c124004af55b1d1bc97261e4f4521e234b78748addd585b3f03711f64584"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
           "file": "sounds/PeonYesAttack3.wav",
-          "label": "Be happy to.",
+          "label": "I'll try!",
           "sha256": "097361087515743db44ee93bfc4865fc331d270cb512805844610259a012b869"
         }
       ]
