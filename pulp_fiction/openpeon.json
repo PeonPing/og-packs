@@ -1,0 +1,144 @@
+{
+  "name": "pulp_fiction",
+  "display_name": "Pulp Fiction",
+  "version": "1.0.0",
+  "description": "Pulp Fiction quotes for your Claude Code notifications. 19 clips across 7 categories.",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "movie-quotes",
+    "tarantino",
+    "pulp-fiction",
+    "samuel-l-jackson",
+    "john-travolta"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/i'm-winston-wolf-i-solve-problems-good-we-got-one-so-i-heard.mp3",
+          "sha256": "05e469a1e3b4a67133330209c107431c5b1c76e01357f64f43e14102f12c3ed5",
+          "label": "I'm Winston Wolf. I solve problems."
+        },
+        {
+          "file": "sounds/yo-vincent-vega-our-man-in-amsterdam.mp3",
+          "sha256": "f46ac925b013e7ddd843c52861d39a4ed62c34ebe7abaddc795c8c3a7e3e1709",
+          "label": "Yo, Vincent Vega — our man in Amsterdam."
+        },
+        {
+          "file": "sounds/you-sendin'-the-wolf.mp3",
+          "sha256": "95b36b5aad79f82218354c8e405f35f40dc7580d568cdec21de3e49891bb466c",
+          "label": "You sendin' the Wolf?"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/correctamundo.mp3",
+          "sha256": "4051c9a18405e10bc6d17a79907a0885a2af2790452ef72453eac482c1100edd",
+          "label": "Correctamundo."
+        },
+        {
+          "file": "sounds/hamburgers!-the-cornerstone-of-any-nutritious-breakfast.mp3",
+          "sha256": "e41a26a486d2a757e02164a0256cd27908875a155752e5fb16965a24bc802e69",
+          "label": "Hamburgers! The cornerstone of any nutritious breakfast."
+        },
+        {
+          "file": "sounds/this-is-a-tasty-burger!.mp3",
+          "sha256": "65b6276a35283595bef8b3e92fcf1f700da59ec019a2a5a399131a94f3f07fe9",
+          "label": "This is a tasty burger!"
+        },
+        {
+          "file": "sounds/english-motherfucker!-do-you-speak-it-yes!.mp3",
+          "sha256": "bf47de78fdff93c95c4524271e0daa52687d57adbbb36bfdfefe224caa5de82e",
+          "label": "English, motherfucker! Do you speak it?"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/who's-zed-zed's-dead-baby-zed's-dead.mp3",
+          "sha256": "9ccc60f5cbc34a6f14e4e245167e1f4da6d33d1db6d5d35f5d3f51967ca5da60",
+          "label": "Zed's dead, baby. Zed's dead."
+        },
+        {
+          "file": "sounds/mr-wolf-i-just-wanna-tell-you-it-was-a-real-pleasure-watching-you-work-yeah-really-and-thank-you-very-much-mr-wolf.mp3",
+          "sha256": "7a97e4ae8364613a465a688086532aae14d8573eb4b4eb88d5287fad365c496e",
+          "label": "It was a real pleasure watching you work, Mr. Wolf."
+        },
+        {
+          "file": "sounds/it's-30-minutes-away-i'll-be-there-in-10.mp3",
+          "sha256": "1ce95dc7c4177b1179a4b31fffd5d14c8a4e1b3661928bda6c234ed82f23dee9",
+          "label": "It's 30 minutes away. I'll be there in 10."
+        },
+        {
+          "file": "sounds/lookin'-good-butch.mp3",
+          "sha256": "e26d2c6a5ccd1fd2b3a3b4f97697456d447accfac9ac8f910b75e224a2c0b2a2",
+          "label": "Lookin' good, Butch."
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/well-bring-out-the-gimp.mp3",
+          "sha256": "e1cb985105f56bb5c39a8c807e540d705c8679c0ba5b58e2a5ca7216e85fb97b",
+          "label": "Well, bring out the Gimp."
+        },
+        {
+          "file": "sounds/oh-i'm-sorry-did-i-break-your-concentration-i-didn't-mean-to-do-that-please-continue.mp3",
+          "sha256": "3265ee2393742b9163a7fa5773834c04512fed1a38bd32ddd602becccb1ebfa0",
+          "label": "Oh, I'm sorry, did I break your concentration?"
+        },
+        {
+          "file": "sounds/yeah-i-was-sittin'-here-eatin'-my-muffin-drinkin'-my-coffee-replayin'-the-incident-in-my-head-when-i-had-what-alcoholics-refer-to-as-a-moment-of-clarity.mp3",
+          "sha256": "8f2d9441c926ed97110b7a0f833876ab1c99045df72315f4fe2565dd4f93229f",
+          "label": "I had what alcoholics refer to as a moment of clarity."
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/say-'what'-again!-i-dare-ya!-i-double-dare-you-motherfucker!-say-'what'-one-more-goddamn-time!.mp3",
+          "sha256": "0eb6764ad1a914973ed042c0a9b6dade57c5efffee94bbaadb47913d9c94d0d5",
+          "label": "Say 'what' again! I dare ya! I double dare you, motherfucker!"
+        },
+        {
+          "file": "sounds/what-i-say-'-'what'-again!.mp3",
+          "sha256": "97f25a4ad1b3cd89887adc208cb58c1650a60679de028424b74152e4791b7417",
+          "label": "What? I say 'what' again!"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ezekiel-25-17-'the-path-of-the-righteous-man-is-beset-on-all-sides-by-the-inequities-of-the-selfish-and-the-tyranny-of-evil-men-'.mp3",
+          "sha256": "37e1f4b8bcb4f4d0d5daab174f385f9083d4a935b35ce59ed02cf78d548a5772",
+          "label": "Ezekiel 25:17. The path of the righteous man..."
+        },
+        {
+          "file": "sounds/'and-you-will-know-my-name-is-the-lord-when-i-lay-my-vengeance-upon-thee!'.mp3",
+          "sha256": "3b899c7f0e9ac14e6efb0c1ce8f5262f7254ba8408f2bae54620bb08c4cede8b",
+          "label": "And you will know my name is the Lord when I lay my vengeance upon thee!"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/any-of-you-fucking-pricks-move-and-i'll-execute-every-motherfuckin'-last-one-of-you.mp3",
+          "sha256": "53e9d65527892c75bc010808fc110b7f2804c711a621a1b7fc50303b438b243f",
+          "label": "Any of you fucking pricks move and I'll execute every motherfuckin' last one of you."
+        }
+      ]
+    }
+  }
+}
