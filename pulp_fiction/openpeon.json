@@ -2,7 +2,7 @@
   "name": "pulp_fiction",
   "display_name": "Pulp Fiction",
   "version": "1.0.0",
-  "description": "Pulp Fiction quotes for your Claude Code notifications. 19 clips across 7 categories.",
+  "description": "Pulp Fiction quotes for your Claude Code notifications. 24 clips across 7 categories.",
   "author": {
     "name": "bdrang",
     "github": "bdrang"
@@ -114,6 +114,31 @@
           "file": "sounds/what-i-say-'-'what'-again!.mp3",
           "sha256": "97f25a4ad1b3cd89887adc208cb58c1650a60679de028424b74152e4791b7417",
           "label": "What? I say 'what' again!"
+        },
+        {
+          "file": "sounds/would-you-give-a-guy-a-foot-massage.mp3",
+          "sha256": "cb03b6864fa56c09067316927e30d9fc175cdfea3cf4edd536ec09944cd3bf27",
+          "label": "Would you give a guy a foot massage?"
+        },
+        {
+          "file": "sounds/hello-(2).mp3",
+          "sha256": "56dcad9b7cc6953044081253427059f8aa6fbe50390831a27e416f4e62058948",
+          "label": "Hello."
+        },
+        {
+          "file": "sounds/hold-it-right-there-goddamn-it.mp3",
+          "sha256": "51783ecfb30531c4a93547ae172902be90ee90cf1c6cde050dda07bb3fdfec4f",
+          "label": "Hold it right there, goddamn it."
+        },
+        {
+          "file": "sounds/did-you-just-order-a-five-dollar-shake.mp3",
+          "sha256": "24d77bc3d92bc02a2c172cfdbedaa04547dabf527f698e704c62d320dd84e50c",
+          "label": "Did you just order a five-dollar shake?"
+        },
+        {
+          "file": "sounds/call-me-winston.mp3",
+          "sha256": "e85d24fe9ce4fc9c7167aa59bfd3daca7e5a8e33eb3150a0fc157d16c10b8cdb",
+          "label": "Call me Winston."
         }
       ]
     },
