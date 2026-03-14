@@ -1,0 +1,120 @@
+{
+  "name": "simpsons_homer",
+  "display_name": "Homer Simpson",
+  "version": "1.0.0",
+  "description": "Homer Simpson quotes for your Claude Code notifications. 14 clips across 6 categories.",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "tv-quotes",
+    "simpsons",
+    "homer",
+    "animated",
+    "comedy"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/organized.mp3",
+          "sha256": "607811420628789ea674bebfad39720dcec9c281e3dc0f7a7439e1e19124df2c",
+          "label": "Organized crime."
+        },
+        {
+          "file": "sounds/mcrumble.mp3",
+          "sha256": "56b2404fba29963dc3c7d12625248e1c419f4297071c36ab805682bf4e751bf0",
+          "label": "Mmm, crumbled cookie things."
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/mmm-donuts.mp3",
+          "sha256": "ae4371bb07a63c8c29932ce0e68143ce63f3c9c6397aef60b98c8c1d9de85111",
+          "label": "Mmm, donuts."
+        },
+        {
+          "file": "sounds/mbeernut.mp3",
+          "sha256": "832262f3003e63b5e4bfb955ccfbeeb6b3151effa383cffc08e16456b455ce05",
+          "label": "Mmm, beer nuts."
+        },
+        {
+          "file": "sounds/mburger.mp3",
+          "sha256": "69287a4227ede1165d263551e1ced619ff4dfb03a665e039f43d7035331be110",
+          "label": "Mmm, burger."
+        },
+        {
+          "file": "sounds/mchocola.mp3",
+          "sha256": "a557768d8f825e52815446cc6cd39c7c7f3c4bb0eeff481cf8e1d1b1af98ec66",
+          "label": "Mmm, chocolate."
+        },
+        {
+          "file": "sounds/mmurinal.mp3",
+          "sha256": "0e56a2368a2c96353e569e450ef733f2c87bc8e5576abbede8742ccaee295d6e",
+          "label": "Mmm, urinal fresh."
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/woohoo.mp3",
+          "sha256": "14b4b08469988f37d58abb0ad1a15be97fe81721448149da1181ee43dd3a6d67",
+          "label": "Woohoo!"
+        },
+        {
+          "file": "sounds/fatkid.mp3",
+          "sha256": "4cc3e4cfb6da5c322c255cb51efde18126980cafac805f8cb957566558892f3e",
+          "label": "That kid's got bosoms!"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/why-you-little.mp3",
+          "sha256": "5da381839e197f1ee1d47efe76060aa4d1f970165eef2dcff3226500d320edd6",
+          "label": "Why you little...!"
+        },
+        {
+          "file": "sounds/doh1.mp3",
+          "sha256": "7656101498d05d350bcc2dbb1c3b998232728e0de13021f1783113da55b1adf5",
+          "label": "D'oh!"
+        },
+        {
+          "file": "sounds/crap.mp3",
+          "sha256": "b9997044d22468337dee6b45d67c6ccf50648d76456845861b696963b0ec1c51",
+          "label": "Craaap!"
+        },
+        {
+          "file": "sounds/bash.mp3",
+          "sha256": "e571557f3e5eca7e19a88dbc91342a4d94688b01afbb15d2242f9c344180acec",
+          "label": "I'll bash you good!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/boring.mp3",
+          "sha256": "63b6e85ac431943b6a2ab9b913d114be8a2907b4f724572fd65dbefb267a3a02",
+          "label": "Boooring!"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/boring.mp3",
+          "sha256": "63b6e85ac431943b6a2ab9b913d114be8a2907b4f724572fd65dbefb267a3a02",
+          "label": "Boooring!"
+        }
+      ]
+    }
+  }
+}

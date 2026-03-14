@@ -1,0 +1,142 @@
+{
+  "name": "simpsons",
+  "display_name": "The Simpsons",
+  "version": "1.0.0",
+  "description": "The Simpsons quotes for your Claude Code notifications. 17 clips across 7 categories.",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "tv-quotes",
+    "simpsons",
+    "animated",
+    "comedy",
+    "bart",
+    "burns",
+    "ned",
+    "ralph"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/hi-dily-hey.mp3",
+          "sha256": "5fe0aa7ee35063a7f951bb60795dc038c2557236475d330f67dd4b6f61c9c510",
+          "label": "Hi-dily-hey, neighbor!"
+        },
+        {
+          "file": "sounds/okly.mp3",
+          "sha256": "63afc8bed9256c84c7dd73390e5c10ee712e1774519c45a34640dfea12fa17a2",
+          "label": "Okily dokily!"
+        },
+        {
+          "file": "sounds/drink.mp3",
+          "sha256": "6094f420c550443e791bb24a872a5c543bb2a2284589301c8923ffb9a6d5e6c1",
+          "label": "Barney: I'm supposed to be a Governor!"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/indeedily-doodily.mp3",
+          "sha256": "2eb74d3a58c8c3d06a67d76a96f10a49be2071364bbbd7039f422f4dd464de6f",
+          "label": "Indeedily doodily!"
+        },
+        {
+          "file": "sounds/bartlaf3.mp3",
+          "sha256": "13bb79c7a5e27728c0895e730f6365a04fed6a4edda2bb77c9715ad9cba86385",
+          "label": "Bart laugh"
+        },
+        {
+          "file": "sounds/krlaugh.mp3",
+          "sha256": "1312440ed7056d2da6eb60aa2420bc66277a24778d750beec5221f49ab30de25",
+          "label": "Krusty laugh"
+        },
+        {
+          "file": "sounds/senseofhumor.mp3",
+          "sha256": "4249c1bc4d54b915c1d396ddf38de9d94e6d686758cdf9cd74f6964a35873d2b",
+          "label": "Bart: Where's your sense of humor, man?"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/Mr-Burns-pish-posh.mp3",
+          "sha256": "b007ffd88a1dc83d5b43d90c33ad6235e16bd09d614338d721a04afad4c08116",
+          "label": "Mr. Burns: Pish posh."
+        },
+        {
+          "file": "sounds/damned.mp3",
+          "sha256": "469275a2e4676abadc2d8e7a35068789a13a3816dc25521adc7863b3c5d1d2e9",
+          "label": "Bart: Damn it!"
+        },
+        {
+          "file": "sounds/dillypickle.mp3",
+          "sha256": "017c7a9792db03e07a27ace46800ed0d1c7320dab66c07fb9db5bff0a657a9f8",
+          "label": "Ned: That's a dilly of a pickle!"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/belching.mp3",
+          "sha256": "9835aa59ee430cd2db3b356060498b392f554687e3ba7a8534f215a59d720b67",
+          "label": "Barney belch"
+        },
+        {
+          "file": "sounds/wooky1.mp3",
+          "sha256": "c9a9e7edd87672103fb6c0045648b0e9bf7f86aa38387f2d1c1e50e249ed1640",
+          "label": "Ralph: I bent my Wookie."
+        },
+        {
+          "file": "sounds/Mr-Burns-Blue-Blazes.mp3",
+          "sha256": "d50385204f4f270cbd5c406e5b7f6e02520fe2932991d801026d2087d7544975",
+          "label": "Mr. Burns: What in blue blazes?!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/haha.mp3",
+          "sha256": "ec68f7051b6594c26b36369e1232cf42ff44f5dade557008af012b8ecdfdb00c",
+          "label": "Nelson: Ha-ha!"
+        },
+        {
+          "file": "sounds/ohsleep.mp3",
+          "sha256": "3aecc86d8fb08715120d7511829973fb0b91190bba469fbc429d720a3433ec5e",
+          "label": "Ralph: Oh, I'm so sleepy."
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/me-fail-English.mp3",
+          "sha256": "4eb6b2f938d4ea171ea7db16285ae8f5b20c2eb68cb78a59ceafdf19d98a02fd",
+          "label": "Ralph: Me fail English? That's unpossible."
+        },
+        {
+          "file": "sounds/gramps.mp3",
+          "sha256": "f74b8d81f0b4e86bed61a613275263ace2f9ce1b7160b049b619f484a4498e07",
+          "label": "Grampa Simpson"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/haha.mp3",
+          "sha256": "ec68f7051b6594c26b36369e1232cf42ff44f5dade557008af012b8ecdfdb00c",
+          "label": "Nelson: Ha-ha!"
+        }
+      ]
+    }
+  }
+}
