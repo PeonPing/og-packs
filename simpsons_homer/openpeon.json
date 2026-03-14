@@ -1,8 +1,8 @@
 {
   "name": "simpsons_homer",
   "display_name": "Homer Simpson",
-  "version": "1.0.0",
-  "description": "Homer Simpson quotes for your Claude Code notifications. 14 clips across 6 categories.",
+  "version": "1.1.0",
+  "description": "Homer Simpson quotes for your Claude Code notifications. 21 clips across 6 categories.",
   "author": {
     "name": "bdrang",
     "github": "bdrang"
@@ -57,6 +57,16 @@
           "file": "sounds/mmurinal.mp3",
           "sha256": "0e56a2368a2c96353e569e450ef733f2c87bc8e5576abbede8742ccaee295d6e",
           "label": "Mmm, urinal fresh."
+        },
+        {
+          "file": "sounds/mmm_chicken.wav",
+          "sha256": "37e2c587b63937fc58a0397883038dbe1abaf14bb9419e71fd540da91186e8fc",
+          "label": "Mmm, chicken."
+        },
+        {
+          "file": "sounds/mmm_horz_doovers.wav",
+          "sha256": "454b20d824a5834176bbbf526f5c24bd4c4d25ed95b6840ee98feda0f1b697a1",
+          "label": "Mmm, hor d'oeuvres."
         }
       ]
     },
@@ -104,6 +114,31 @@
           "file": "sounds/boring.mp3",
           "sha256": "63b6e85ac431943b6a2ab9b913d114be8a2907b4f724572fd65dbefb267a3a02",
           "label": "Boooring!"
+        },
+        {
+          "file": "sounds/hello.wav",
+          "sha256": "0a095633c5a0008f56d359d911c92b14ed03f84536711f7f97e3326c6997e465",
+          "label": "Hello?"
+        },
+        {
+          "file": "sounds/going_on_here.wav",
+          "sha256": "3c67d8dc8173dc1e3c10e63f57c09826f6416d4d03cdb7e58d16b540c0e0d55e",
+          "label": "What's going on here?"
+        },
+        {
+          "file": "sounds/insane2.wav",
+          "sha256": "430827ab2e9da82e9def78e18f9d69d37e2661a127d863915e890cb45becb470",
+          "label": "Has the whole world gone insane?!"
+        },
+        {
+          "file": "sounds/internet3.wav",
+          "sha256": "e8ca1129649a1383a012c068115294e2ca15f8825602e0d16b668399ca68fa0c",
+          "label": "Ooh, they have the Internet on computers now!"
+        },
+        {
+          "file": "sounds/anybody_care.wav",
+          "sha256": "2f789c1145c2bf9b3b6def5d0719f86719f5af1013c466a1f94301c3890eb94a",
+          "label": "Does anybody care?"
         }
       ]
     },
