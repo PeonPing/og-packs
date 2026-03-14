@@ -1,0 +1,175 @@
+{
+  "name": "southpark_cartman",
+  "display_name": "Cartman (South Park)",
+  "version": "1.0.0",
+  "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS — Eric Cartman Angry model).",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "tv-quotes",
+    "south-park",
+    "cartman",
+    "comedy",
+    "animated",
+    "ai-generated"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/respect_my_authoritah.wav",
+          "sha256": "92a632888ea8531bc4d3748ad65dc767f4d0867838c46f9915fad8e8194c5b14",
+          "label": "Respect my authoritah!"
+        },
+        {
+          "file": "sounds/sweeeet.wav",
+          "sha256": "2fac4e9282bd080b78c56ddb8a88cf31bb267236c4961fa9185582c4db50d49f",
+          "label": "Sweeeet!"
+        },
+        {
+          "file": "sounds/gonna_be_awesome.wav",
+          "sha256": "dd60746ff60f19568c6c85720d4621ffff018820d5566f8261f30b3b949d6a51",
+          "label": "Oh, this is gonna be so awesome."
+        },
+        {
+          "file": "sounds/i_know_exactly.wav",
+          "sha256": "708115724505a1d33e0c17c06e38173b7855c26e8bffbaced14570eda99728ff",
+          "label": "Oh, I know exactly what to do."
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/whatever_ill_do_it.wav",
+          "sha256": "30866c5f26a42b0346508cd4b21a683cab800faad88dac53570187499728e901",
+          "label": "Whatever, I'll do it."
+        },
+        {
+          "file": "sounds/i_am_so_smart.wav",
+          "sha256": "2f9a3732ff6aea0c5dd01cbf87e4c25511beda24776830e9a46dd599783b8084",
+          "label": "I am so smart. I am so smart."
+        },
+        {
+          "file": "sounds/on_it.wav",
+          "sha256": "2f0e715a709ad45168414a9808a7147ce6839523557507254d511bed9773bedc",
+          "label": "I'm on it. I am so on it right now."
+        },
+        {
+          "file": "sounds/of_course_i_know.wav",
+          "sha256": "842281d781730ea32a9a286c1c29c91405d68cb52b306b54612eea9005c409c8",
+          "label": "Of course I know. I know everything."
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/kickass.wav",
+          "sha256": "35dd2d7987f1ccaa9f017d30999b60974f386595dda158f1bba8f33a40b218a3",
+          "label": "Kickass!"
+        },
+        {
+          "file": "sounds/thats_what_im_talking.wav",
+          "sha256": "e125341040bb1938555e6b987e184394a27297e4c46847d92f5fca4c13ef6374",
+          "label": "That's what I'm talking about!"
+        },
+        {
+          "file": "sounds/oh_yeah_cartman_rolls.wav",
+          "sha256": "c2a3c157def16af57190fb67d75813f228723d8ad24e47789d3cae41b235cf22",
+          "label": "Oh yeah! That's how Cartman rolls."
+        },
+        {
+          "file": "sounds/nailed_it.wav",
+          "sha256": "8076b546da1622556a5fe859185e9186677345933643f2b732d3d8034dbc3b2e",
+          "label": "Nailed it. Totally nailed it."
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/worst_thing_ever.wav",
+          "sha256": "4cc1230374e3032aa535c25dfc22123f50c92deff65c5d318f561eaa8db6d35c",
+          "label": "Oh my God, this is the worst thing that's ever happened!"
+        },
+        {
+          "file": "sounds/weak.wav",
+          "sha256": "0db6f7a8ac6f5bd95d6965038582d8a595d5b2365906d667a981107e3c12d1a2",
+          "label": "Weak!"
+        },
+        {
+          "file": "sounds/screw_you_guys.wav",
+          "sha256": "a0d2b881af7a09d97eaecfa7360bc4e0eab90d51dd8c5e5d0f4af1db423094d9",
+          "label": "Screw you guys!"
+        },
+        {
+          "file": "sounds/seriously_pissing_me_off.wav",
+          "sha256": "3c896f70108e4e18bc668b2fb3466a4346ba29247d0134c61768d5e8cd47813a",
+          "label": "This is seriously pissing me off!"
+        },
+        {
+          "file": "sounds/son_of_a_bitch.wav",
+          "sha256": "6a7bbd3487a1d007d0abe396914e0c20be39ef07d1096e4a8b02be7a6b731d27",
+          "label": "Son of a bitch!"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/hey_talking_to_you.wav",
+          "sha256": "d81e1054ec433a5af6075a235a820ce8c39cd6ce3d0a2d3ded65d250591d8c89",
+          "label": "Hey! I am talking to you!"
+        },
+        {
+          "file": "sounds/is_anybody_listening.wav",
+          "sha256": "29dcc0b57e01b4b4fd035d3811b0da44a45feb3725da5d357ae3ea1599e5837d",
+          "label": "Hello? Is anybody listening to me?!"
+        },
+        {
+          "file": "sounds/answer_me_right_now.wav",
+          "sha256": "d990b014b403f04b35585f8fce6b1c770d1da611616c509a8c694fe108069528",
+          "label": "You need to answer me right now."
+        },
+        {
+          "file": "sounds/i_will_seriously_freak.wav",
+          "sha256": "16a6ba6def470adc6b1b0cb3279e2cea13c8ad8581326ce561cfee84bfd74aae",
+          "label": "I swear to God I will seriously freak out!"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/running_out.wav",
+          "sha256": "dbf17347eb748e52df5502c59511ad3915bbd3bcb5de20e81b28b5e31486247d",
+          "label": "Oh hamburgers, we are running out of everything!"
+        },
+        {
+          "file": "sounds/out_of_hand.wav",
+          "sha256": "f549b1c56d41806d1affb81727accab280a537b1cb5334fd2f8b5efdb83737ed",
+          "label": "This is seriously getting out of hand."
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/going_home.wav",
+          "sha256": "04872511296571a7e622bbca8b92c912b25f1fdf842de7e6c8e03f702053b3fc",
+          "label": "Screw you guys, I'm going home."
+        },
+        {
+          "file": "sounds/would_you_just_stop.wav",
+          "sha256": "b3a65ad62031430875a1a668085f98439b76c962131b006e024631a391403fe3",
+          "label": "Would you just STOP?!"
+        }
+      ]
+    }
+  }
+}
