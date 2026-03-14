@@ -1,0 +1,215 @@
+{
+  "name": "djt",
+  "display_name": "Donald J. Trump",
+  "version": "1.0.0",
+  "description": "Donald J. Trump quotes for your Claude Code notifications. 33 clips across 7 categories. Mix of real speech and AI-generated coding-contextual lines (FakeYou TTS).",
+  "author": {
+    "name": "bdrang",
+    "github": "bdrang"
+  },
+  "license": "fair-use",
+  "language": "en",
+  "tags": [
+    "political-quotes",
+    "trump",
+    "djt",
+    "usa",
+    "comedy",
+    "ai-generated"
+  ],
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/i_want_to_make_our_country_great_again.mp3",
+          "sha256": "ce196ac47f0aa473ceffff7147dad8e25c05f3dc3f3bc50a5ccf1517cc5424a6",
+          "label": "I want to make our country great again."
+        },
+        {
+          "file": "sounds/gonna_make_codebase_great.wav",
+          "sha256": "3bc898b1eac3cb0a203a9928142498d083a21ac6e04963dbdd067d15ec5ed541",
+          "label": "We're gonna make this codebase great again. [AI]"
+        },
+        {
+          "file": "sounds/nobody_codes_better.wav",
+          "sha256": "f0c216c7f2555ab011bd65ce1b9d4b431cddd540340534f79f9661b71262a334",
+          "label": "Nobody codes better than me, nobody. [AI]"
+        },
+        {
+          "file": "sounds/best_developers.wav",
+          "sha256": "6922a10766fcf47c75ad6661031da03014415caa194c8e92e5382efc58d6d3e8",
+          "label": "I have the best developers, the best. Everybody says so. [AI]"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/without_question.mp3",
+          "sha256": "a459b7a211c8add03cf31b522e844a795a436527f40d8f866ccd4168cfb78ca3",
+          "label": "Without question."
+        },
+        {
+          "file": "sounds/phenomenal.mp3",
+          "sha256": "61fcd274c69c21e0a239e49598bb795671d559ce6fffe2293fdc5c37d5fe27ac",
+          "label": "Phenomenal."
+        },
+        {
+          "file": "sounds/believe_it_or_not.mp3",
+          "sha256": "801a33059c99be61928b45d2bfe51507b267e6ea382163bf7eaa9c629b514de9",
+          "label": "Believe it or not."
+        },
+        {
+          "file": "sounds/believe_me_im_on_it.wav",
+          "sha256": "e3d3a2b31ab06e1656f480b322e3acc618553e33bd050be46f76101384e5703b",
+          "label": "Believe me, I'm on it. [AI]"
+        },
+        {
+          "file": "sounds/i_know_what_im_doing.wav",
+          "sha256": "10363863deebf60d499ffa56aa25d60b260f3de8bd3c2e8279ce1aeb54c65d3f",
+          "label": "I know what I'm doing, trust me. [AI]"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/so_amazing.mp3",
+          "sha256": "5d086e919eaf142988714d99dd5c6bae4ef3d246851e62c02b633395eafe7545",
+          "label": "So amazing."
+        },
+        {
+          "file": "sounds/better_than_ever_before.mp3",
+          "sha256": "bd5c582015b4cf54dab891f460838cf966604fc22fadb4c0613e1f21f3b20a83",
+          "label": "Better than ever before."
+        },
+        {
+          "file": "sounds/youre_hired.wav",
+          "sha256": "3bc6278763e9745a07c6fdbbcbc7d681ce3585c15a34db77add7160ae512f98e",
+          "label": "You're hired! [AI]"
+        },
+        {
+          "file": "sounds/what_a_beautiful_code.wav",
+          "sha256": "bf78edd9e487f9bc445518ecaa501d4309ceccdaccdc8078a426d4374a6df43f",
+          "label": "What a beautiful piece of code! [AI]"
+        },
+        {
+          "file": "sounds/just_beautiful.wav",
+          "sha256": "4645562b83aaf5ea6adf0ddcd2651ac5e555225ea9aaa24592fb4c75401ad212",
+          "label": "Beautiful. Just beautiful. [AI]"
+        },
+        {
+          "file": "sounds/perfect_ten.wav",
+          "sha256": "96a85c9f3f10696be82734e55549e4a098ffd24770a2f8fb4e566f387731c789",
+          "label": "That's a ten. That's a perfect ten. [AI]"
+        },
+        {
+          "file": "sounds/task_complete_trump.wav",
+          "sha256": "e03e6b0e8c602c6a4601197950614510b7fc37d7303df05893c1330819634fd4",
+          "label": "We got it done, we got it done beautifully. [AI]"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/we_have_losers.mp3",
+          "sha256": "a022e14e0829064e84f0e3dda11f17d3e737ddedd8d3a295f4f5c6537b444e5c",
+          "label": "We have losers."
+        },
+        {
+          "file": "sounds/wrong.wav",
+          "sha256": "bc830c089446c6e9fe9781c15ff101a02c93de4716f8c57f7b6b414e08dcc849",
+          "label": "Wrong! That's totally wrong. [AI]"
+        },
+        {
+          "file": "sounds/fake_bug.wav",
+          "sha256": "2faeb5e191f783898e3d847fb7a4e4696d34e54cf3839d474fcd745e42ce0c29",
+          "label": "Fake bug! Very fake bug. [AI]"
+        },
+        {
+          "file": "sounds/total_disaster.wav",
+          "sha256": "7015e4d196743fd83f9ad5945dad5ab123810ce68562daa4d59a462d2ddfbd6e",
+          "label": "This is a disaster, a total disaster. [AI]"
+        },
+        {
+          "file": "sounds/worst_code.wav",
+          "sha256": "a29da34a7b9d9dde393669db3873fba73252e9d48896d0cdd7237c1fe283b56e",
+          "label": "That's the worst code I've ever seen. Maybe ever. [AI]"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/hey.mp3",
+          "sha256": "252bc4f8a31fb18c47c509e6dadf6ce725e5632a9f3f3a2a1d14b7a3abbfe9b6",
+          "label": "Hey."
+        },
+        {
+          "file": "sounds/can_you_believe_this.mp3",
+          "sha256": "d0406c5eac6759eeedb77c07f57c63357c02e7ee936fabf9939067020a80d288",
+          "label": "Can you believe this?"
+        },
+        {
+          "file": "sounds/excuse_me.wav",
+          "sha256": "1045340ba6c15d80fa8a1aea9087a5691eee5bf20e366019136e6444d38ce6f0",
+          "label": "Excuse me, excuse me. I have a question. [AI]"
+        },
+        {
+          "file": "sounds/are_you_listening.wav",
+          "sha256": "a18b7e0672a1dceac7f2bbdcfb159c209cbba02a5b4655d05331d6abdba6149d",
+          "label": "Are you listening? Hello? Are you there? [AI]"
+        },
+        {
+          "file": "sounds/gonna_need_answer.wav",
+          "sha256": "57c9e566eab6df77e524c94201f67bc3b8c48d1d6f96253b94e2ccf966f6d088",
+          "label": "You're gonna have to answer me on this. [AI]"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/nothing_but_problem.mp3",
+          "sha256": "cfabe4ff5cf581bd4a780b77b83ad54d25776feefe9562271b20b3ce8165e0b3",
+          "label": "Nothing but problem."
+        },
+        {
+          "file": "sounds/we_still_have_a_long_way_to_go.mp3",
+          "sha256": "6f3b3aa10c03621a91d13fe4dd421573c708a8c0bd6080e86a045f5945aa9347",
+          "label": "We still have a long way to go."
+        },
+        {
+          "file": "sounds/running_out_of_tokens.wav",
+          "sha256": "a21ece53330ac6f9f89d12e902e00ca3c5817c06b4f6a1454345d6e80fd539d8",
+          "label": "We're running out of tokens, folks. Not good. Not good at all. [AI]"
+        },
+        {
+          "file": "sounds/out_of_everything.wav",
+          "sha256": "3de5898170d4306550fb31369038ccac912eeaf002625f666a045e1958019e77",
+          "label": "We've run out. We've run out of everything. [AI]"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/people_are_tired_of_incompetence.mp3",
+          "sha256": "0b1ea5ae9816bc3211b656f5cb35c6001701e022b953e03e443966253021e764",
+          "label": "People are tired of incompetence."
+        },
+        {
+          "file": "sounds/stop_just_stop.wav",
+          "sha256": "37e7493e70f4a4707dfb710620af2e99d6019518b5a6dcd9fdb513b522e5d703",
+          "label": "Stop. Just stop. [AI]"
+        },
+        {
+          "file": "sounds/enough_already.wav",
+          "sha256": "ffcaf37a9efc7d02c71d77d18d644ab96640f388198144189af9879d4405e07f",
+          "label": "Enough. Enough already. [AI]"
+        }
+      ]
+    }
+  }
+}
