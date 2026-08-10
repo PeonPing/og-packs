@@ -12,7 +12,7 @@ Create your own! Community packs are first-class citizens in the peon-ping ecosy
 2. **Follow the CESP spec** at [openpeon.com/create](https://openpeon.com/create)
 3. **Submit to the registry** by opening a PR on [PeonPing/registry](https://github.com/PeonPing/registry) to add your pack to `index.json`
 
-**Want an agent to do all of this for you?** Paste [AUTHOR.md](https://github.com/PeonPing/openpeon/blob/main/AUTHOR.md) into Claude Code / Codex / Cursor / opencode and it'll walk you through install → plan → scaffold → validate → publish → register, end to end.
+**Want an agent to do all of this for you?** Paste [GENERATE.md](https://github.com/PeonPing/openpeon/blob/main/GENERATE.md) into Claude Code / Codex / Cursor / opencode and it will interview you, then generate or gather the sounds, walk you through approving them, publish the repo, and open the registry PR.
 
 Community packs are installable by anyone via `peon --pack <name>` — there is no functional difference between an OG pack and a community pack.
 
